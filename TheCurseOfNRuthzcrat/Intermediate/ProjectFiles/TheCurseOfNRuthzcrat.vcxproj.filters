@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TheCurseOfNRuthzcrat.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TheCurseOfNRuthzcrat.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TheCurseOfNRuthzcratEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TheCurseOfNRuthzcrat">
+      <UniqueIdentifier>{D6C6177D-F5E4-3F06-BF3E-7210238B9E2A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TheCurseOfNRuthzcrat\TheCurseOfNRuthzcrat.Build.cs">
+      <Filter>Source\TheCurseOfNRuthzcrat</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TheCurseOfNRuthzcrat\TheCurseOfNRuthzcrat.cpp">
+      <Filter>Source\TheCurseOfNRuthzcrat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TheCurseOfNRuthzcrat\TheCurseOfNRuthzcrat.h">
+      <Filter>Source\TheCurseOfNRuthzcrat</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
